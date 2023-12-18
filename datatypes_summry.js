@@ -66,4 +66,3 @@ let myInformation =
 };
 
 console.table([myInformation.Name,myInformation.Age,myInformation.Gender,myInformation.Email]);
-console.log(myInformation[0]);
