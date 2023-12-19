@@ -57,15 +57,38 @@ const bigNumber = 232323432634656n;
 // console.log(user.email);
 // console.log(user2.email);
 
-let myInformation = 
-{
-    Name: "Debasish Pradhan",
-    Age: "19",
-    Gender: "Male",
-    Email: "Pradhandebasish5121@gmail.com"
+// let myInformation = 
+// {
+//     Name: "Debasish Pradhan",
+//     Age: "19",
+//     Gender: "Male",
+//     Email: "Pradhandebasish5121@gmail.com"
+// };
+
+// console.table([myInformation.Name,myInformation.Age,myInformation.Gender,myInformation.Email]);
+// console.log(myInformation.Name.toUpperCase());
+// console.log(myInformation.Name.split(' '))
+// console.log(myInformation.Name);
+
+let a = '22'
+let b = Number(a)
+
+console.log("a :",a," type of: ",typeof a);
+console.log("b :",b," type of: ",typeof b);
+
+
+let value = 10;
+let negValue = -value;
+console.log(+'');
+console.log("Value: ",value);
+console.log("negValue: ",negValue);
+
+let str = String(value);
+let f = {
+    city: "Balu-gaon",
+    Block: "Banpur"
+
 };
 
-console.table([myInformation.Name,myInformation.Age,myInformation.Gender,myInformation.Email]);
-console.log(myInformation.Name.toUpperCase());
-console.log(myInformation.Name.split(' '))
-console.log(myInformation.Name);
+console.log(f.city.split('-'));
+console.log(f.city);
