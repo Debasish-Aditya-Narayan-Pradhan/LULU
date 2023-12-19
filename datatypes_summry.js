@@ -89,6 +89,5 @@ let f = {
     Block: "Banpur"
 
 };
-
 console.log(f.city.split('-'));
 console.log(f.city);
