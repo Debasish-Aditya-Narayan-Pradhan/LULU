@@ -66,3 +66,6 @@ let myInformation =
 };
 
 console.table([myInformation.Name,myInformation.Age,myInformation.Gender,myInformation.Email]);
+console.log(myInformation.Name.toUpperCase());
+console.log(myInformation.Name.split(' '))
+console.log(myInformation.Name);
