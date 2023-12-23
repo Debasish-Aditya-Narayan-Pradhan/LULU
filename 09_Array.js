@@ -1,13 +1,14 @@
 //array
 
 const myArray =[0, 1, 2, 3, 4, 5]
-const muHeors = ["shaktiman", "naagraj"]
+const myHeors = ["shaktiman", "naagraj"]
 
 const myArray2 = new Array(7,8,9)
 
 console.log(myArray[1]);
 
 //Array methods
+
 // myArray.push(8)
 // myArray.push(10)
 // myArray.pop()
