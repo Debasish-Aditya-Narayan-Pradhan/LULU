@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: #212121; color:#fff">
+    Hello I am Debasish
+</body>
+<script>
+    const requestUrl = "https://randomuser.me/api/";
+    const xmlr = new XMLHttpRequest();
+    xmlr.open('GET',requestUrl);
+    xmlr.onreadystatechange = function ()
+    { 
+        console.log(xmlr.readyState);
+        if(xmlr.readyState === 4)
+        {
+            const data = JSON.parse(this.responseText);
+            console.log(data);
+            console.log(data.info.version);
+         
+        }
+    }
+    // console.log(xmlr.readyState);
+    xmlr.send();
+</script>
+</html>
